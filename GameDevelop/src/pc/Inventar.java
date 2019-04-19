@@ -1,11 +1,12 @@
 package pc;
 
-import objekt.Objekt;
+import objekt.*;
 import java.util.*;
 
 public class Inventar {
 
 	ArrayList<Objekt> inventar = new ArrayList<Objekt>();
+	Iterator<Objekt> iter = inventar.iterator();
 
 	public boolean addInventar(Objekt o) {
 		if (inventar.isEmpty() || inventar.size() <= 15) {
@@ -14,11 +15,12 @@ public class Inventar {
 		}
 
 		else
-			return false;
+			System.out.println("Inventory ist Full BoooI!!");
+		return false;
 	}
-	
+
 	public void showInventar() {
-		//Iterator einbinden
+		// Iterator einbinden
 	}
 
 	public boolean rmvInventar() {
