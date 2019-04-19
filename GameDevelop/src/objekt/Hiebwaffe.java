@@ -11,7 +11,7 @@ public class Hiebwaffe extends Waffe {
 	private static int Teleskop = 2;
 	private static int Billiardkette = 3;
 
-	public Hiebwaffe(String n, String b) {
-		super(n, b);
+	public Hiebwaffe(String n, String b, int d, int m) {
+		super(n, b, d, m);
 	}
 }

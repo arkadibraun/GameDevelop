@@ -11,7 +11,7 @@ public class Kleinkaliber extends Schusswaffe {
 	private static int DESERT = 2;
 	private static int COLT = 3;
 
-	public Kleinkaliber(String n, String b) {
-		super(n, b);
+	public Kleinkaliber(String n, String b, int d, int m) {
+		super(n, b, d, m);
 	}
 }

@@ -11,7 +11,7 @@ public class Stichwaffe extends Waffe {
 	private static int ImproSpeer = 2;
 	private static int Gräberdolch = 3;
 
-	public Stichwaffe(String n, String b) {
-		super(n, b);
+	public Stichwaffe(String n, String b, int d, int m) {
+		super(n, b, d, m);
 	}
 }

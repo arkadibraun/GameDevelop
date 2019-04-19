@@ -1,6 +1,8 @@
 package pc;
 
 import java.util.Random;
+import objekt.*;
+import Umwelt.*;
 
 public class Player {
 
@@ -14,7 +16,7 @@ public class Player {
 	private int exp; // EXP die man hat
 	private int neededexp; // EXP die man braucht
 	private int lvl; // Aktuelles Level
-	private int dif; // Easy, Normal, Hard
+	private double dif; // Easy, Normal, Hard
 
 	public Player(String name, int dif) {
 		this.name = name;
@@ -48,12 +50,16 @@ public class Player {
 		this.neededexp = this.neededexp - exp;
 	}
 
-	public void lvlUP() {
-		// if neededexp = 0 pipapo
-		// lvl++;
+	public boolean islvlUP() {
+		if(neededexp <=0)
+			return true;
+		else return false;
+
 	}
 
 	public void treffer() {
+		
+		
 
 	}
 

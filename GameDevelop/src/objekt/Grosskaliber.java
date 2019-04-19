@@ -11,7 +11,7 @@ public class Grosskaliber extends Schusswaffe {
 	private static int MK14 = 2;
 	private static int M85 = 3;
 
-	public Grosskaliber(String n, String b) {
-		super(n, b);
+	public Grosskaliber(String n, String b, int d, int m) {
+		super(n, b, d, m);
 	}
 }

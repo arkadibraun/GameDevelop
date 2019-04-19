@@ -10,8 +10,12 @@ public class Schrot extends Schusswaffe {
 	private static int SCHWER = 1;
 	private static int DOPPELLAUF = 2;
 	private static int ZWOELFG = 3;
+	
+	
+	
+	
 
-	public Schrot(String n, String b) {
-		super(n, b);
+	public Schrot(String n, String b, int d, int m) {
+		super(n, b, d, m);
 	}
 }

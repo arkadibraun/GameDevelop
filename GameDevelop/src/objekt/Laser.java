@@ -11,7 +11,8 @@ public class Laser extends Schusswaffe {
 	private static int Gas = 2;
 	private static int Farbstoff = 3;
 
-	public Laser(String n, String b) {
-		super(n, b);
+	public Laser(String n, String b, int d, int m) {
+		super(n, b, d, m);
+
 	}
 }
