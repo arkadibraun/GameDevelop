@@ -37,15 +37,17 @@ public class Player {
 		
 	}
 	
-/*	public int berechneTrefferChance(int bonus) {
+	public int berechneTrefferChance() {
 		
 		  Random a = new Random();
 		  int zz = a.nextInt(19); // erstellt zufalls zwischen 0 und 19
 		  
-		  zz = zz+bonus;
+		  return zz;
+		  
+		  
 		
 		
-	}*/
+	}
 	
 	
 	
